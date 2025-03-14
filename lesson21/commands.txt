@@ -1,5 +1,8 @@
 
 (base) ayush@lucas:~/Desktop/learningPython$ pip install requests==2.30.0
+
+
+
 Collecting requests==2.30.0
   Downloading requests-2.30.0-py3-none-any.whl.metadata (4.6 kB)
 Requirement already satisfied: charset-normalizer<4,>=2 in /home/ayush/anaconda3/lib/python3.12/site-packages (from requests==2.30.0) (2.0.4)
@@ -20,7 +23,13 @@ Successfully installed requests-2.30.0
 
 [notice] A new release of pip is available: 24.3.1 -> 25.0.1
 [notice] To update, run: pip install --upgrade pip
+
+
+
 (base) ayush@lucas:~/Desktop/learningPython$ pip install --upgrade pip
+
+
+
 Requirement already satisfied: pip in /home/ayush/anaconda3/lib/python3.12/site-packages (24.3.1)
 Collecting pip
   Downloading pip-25.0.1-py3-none-any.whl.metadata (3.7 kB)
@@ -32,7 +41,13 @@ Installing collected packages: pip
     Uninstalling pip-24.3.1:
       Successfully uninstalled pip-24.3.1
 Successfully installed pip-25.0.1
+
+
+
 (base) ayush@lucas:~/Desktop/learningPython$ python3 -m pip list
+
+
+
 Package                           Version
 --------------------------------- ------------------
 aext-assistant                    4.0.15
@@ -432,7 +447,13 @@ zict                              3.0.0
 zipp                              3.17.0
 zope.interface                    5.4.0
 zstandard                         0.22.0
+
+
+
 (base) ayush@lucas:~/Desktop/learningPython$ python3 -m pip install U requests
+
+
+
 Collecting U
   Downloading u-1.0-py3-none-any.whl.metadata (1.9 kB)
 Requirement already satisfied: requests in /home/ayush/anaconda3/lib/python3.12/site-packages (2.30.0)
@@ -456,7 +477,13 @@ Downloading blessed-1.20.0-py2.py3-none-any.whl (58 kB)
 Downloading readchar-4.2.1-py3-none-any.whl (9.3 kB)
 Installing collected packages: readchar, blessed, revel, U
 Successfully installed U-1.0 blessed-1.20.0 readchar-4.2.1 revel-0.9.1
+
+
+
 (base) ayush@lucas:~/Desktop/learningPython$ python3 -m pip list
+
+
+
 Package                           Version
 --------------------------------- ------------------
 aext-assistant                    4.0.15
@@ -860,24 +887,45 @@ zict                              3.0.0
 zipp                              3.17.0
 zope.interface                    5.4.0
 zstandard                         0.22.0
+
+
+
 (base) ayush@lucas:~/Desktop/learningPython$ python3 -m pip uninstall requests
+
+
+
 Found existing installation: requests 2.30.0
 Uninstalling requests-2.30.0:
   Would remove:
     /home/ayush/anaconda3/lib/python3.12/site-packages/requests-2.30.0.dist-info/*
     /home/ayush/anaconda3/lib/python3.12/site-packages/requests/*
 Proceed (Y/n)? n
+
+
+
 (base) ayush@lucas:~/Desktop/learningPython$ cd lesson21
+
 (base) ayush@lucas:~/Desktop/learningPython/lesson21$ python3 -m venv .venv
+
 (base) ayush@lucas:~/Desktop/learningPython/lesson21$ source .venv/bin/activate
+
 (.venv) (base) ayush@lucas:~/Desktop/learningPython/lesson21$ pip list
+
+
+
 Package Version
 ------- -------
 pip     24.0
 
 [notice] A new release of pip is available: 24.0 -> 25.0.1
 [notice] To update, run: pip install --upgrade pip
+
+
+
 (.venv) (base) ayush@lucas:~/Desktop/learningPython/lesson21$ python3 -m pip install requests
+
+
+
 Collecting requests
   Downloading requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
 Collecting charset-normalizer<4,>=2 (from requests)
@@ -903,7 +951,13 @@ Successfully installed certifi-2025.1.31 charset-normalizer-3.4.1 idna-3.10 requ
 
 [notice] A new release of pip is available: 24.0 -> 25.0.1
 [notice] To update, run: pip install --upgrade pip
+
+
+
 (.venv) (base) ayush@lucas:~/Desktop/learningPython/lesson21$ pip list
+
+
+
 Package            Version
 ------------------ ---------
 certifi            2025.1.31
@@ -915,7 +969,13 @@ urllib3            2.3.0
 
 [notice] A new release of pip is available: 24.0 -> 25.0.1
 [notice] To update, run: pip install --upgrade pip
+
+
+
 (.venv) (base) ayush@lucas:~/Desktop/learningPython/lesson21$ python3 -m pip show requests
+
+
+
 Name: requests
 Version: 2.32.3
 Summary: Python HTTP for Humans.
@@ -926,7 +986,13 @@ License: Apache-2.0
 Location: /home/ayush/Desktop/learningPython/lesson21/.venv/lib/python3.12/site-packages
 Requires: certifi, charset-normalizer, idna, urllib3
 Required-by: 
+
+
+
 (.venv) (base) ayush@lucas:~/Desktop/learningPython/lesson21$ python3 -m pip install python-dotenv
+
+
+
 Collecting python-dotenv
   Using cached python_dotenv-1.0.1-py3-none-any.whl.metadata (23 kB)
 Using cached python_dotenv-1.0.1-py3-none-any.whl (19 kB)
@@ -935,7 +1001,13 @@ Successfully installed python-dotenv-1.0.1
 
 [notice] A new release of pip is available: 24.0 -> 25.0.1
 [notice] To update, run: pip install --upgrade pip
+
+
+
 (.venv) (base) ayush@lucas:~/Desktop/learningPython/lesson21$ pip list
+
+
+
 Package            Version
 ------------------ ---------
 certifi            2025.1.31
@@ -948,5 +1020,8 @@ urllib3            2.3.0
 
 [notice] A new release of pip is available: 24.0 -> 25.0.1
 [notice] To update, run: pip install --upgrade pip
+
+
+
 (.venv) (base) ayush@lucas:~/Desktop/learningPython/lesson21$ python3 -m pip freeze > requirements.txt
 (.venv) (base) ayush@lucas:~/Desktop/learningPython/lesson21$ 
